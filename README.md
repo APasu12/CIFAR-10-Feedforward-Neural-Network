@@ -1,6 +1,6 @@
 # CIFAR-10 Feedforward Neural Network from Scratch
 
-This project implements a multi-layer feedforward neural network to classify images from the CIFAR-10 dataset using only numpy for the core logic. 
+This project implements a multi-layer feedforward neural network to classify images from the CIFAR-10 dataset using numpy for the core logic. 
 
 ## Project Features
 - **Dataset**: CIFAR-10 (subsampled to 10,000 training and 2,000 test images for runtime efficiency).
