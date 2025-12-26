@@ -1,7 +1,7 @@
 import numpy as np
 from model_logic import relu, relu_derivative, softmax, compute_loss
 
-# Your Forward and Backward Pass Implementation
+# Forward and Backward Pass Implementation
 def forward_pass(X, W1, b1, W2, b2, W3, b3):
     z1 = X.dot(W1) + b1
     a1 = relu(z1)
@@ -32,7 +32,7 @@ def backward_pass(cache, y_true, W1, W2, W3):
 
     return dW1, db1, dW2, db2, dW3, db3
 
-# Your Training Loop
+# Training Loop
 def train(X, y, X_val, y_val, W_params, b_params, rng, epochs=20, batch_size=128, learning_rate=0.01):
     W1, W2, W3 = W_params
     b1, b2, b3 = b_params
