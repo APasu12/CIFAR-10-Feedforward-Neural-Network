@@ -1,6 +1,6 @@
 import numpy as np
 
-# Your Network Architecture and Parameter Initialization
+# Network Architecture and Parameter Initialization
 def initialize_parameters(input_size, hidden1_size, hidden2_size, output_size, rng):
     W1 = rng.standard_normal((input_size, hidden1_size)) * 0.01 
     b1 = np.zeros((1, hidden1_size))
@@ -10,7 +10,7 @@ def initialize_parameters(input_size, hidden1_size, hidden2_size, output_size, r
     b3 = np.zeros((1, output_size))
     return W1, b1, W2, b2, W3, b3
 
-# Your activation functions and their derivatives
+# activation functions and their respective derivatives
 def relu(z): 
     return np.maximum(0, z)
 
