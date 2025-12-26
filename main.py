@@ -21,7 +21,7 @@ val_split = 2000
 X_val, y_val = x_train[:val_split], y_train[:val_split]
 X_train_sub, y_train_sub = x_train[val_split:], y_train[val_split:]
 
-# Init and Train
+# Initialize and Train
 W1, b1, W2, b2, W3, b3 = initialize_parameters(3072, 512, 256, 10, rng)
 baseline, final_params = train(X_train_sub, y_train_sub, X_val, y_val, 
                                (W1, W2, W3), (b1, b2, b3), rng, 
