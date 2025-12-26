@@ -10,13 +10,12 @@ This project implements a multi-layer feedforward neural network to classify ima
     - Activation: ReLU for hidden layers and Softmax for the output layer.
 - **Algorithm**: Backpropagation and Gradient Descent implemented.
 
-## Visualizations Included
+## Visualizations
 This project generates several plots to demonstrate the learning process:
 1. **Loss and Accuracy**: Training vs. Validation performance over 10 epochs.
 2. **Weight Visualization**: Displays the first 32 weight vectors of the first hidden layer.
 3. **Confusion Matrix**: Evaluation of classification performance across the 10 categories.
 4. **PCA Analysis**: A 2D projection of the hidden layer activations to see how the network clusters classes.
-
 
 
 ## How to Run
